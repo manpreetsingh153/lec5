@@ -1,0 +1,20 @@
+.card{
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px #00000025;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+@media only screen and (max-width:768px){
+    .container{
+        grid-template-columns:1fr;
+    }
+}
